@@ -6,13 +6,266 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="410dp"
+        android:layout_height="238dp"
+        android:background="@drawable/gambarbiru"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/pp"
+            android:layout_width="139dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/photoprofil"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="29dp"
+
+            android:text="RIJKI HIDAYAT"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/Alamat"
+            android:layout_width="186dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="74dp"
+
+            android:text="Jl.Kemakmuran 4 no.9 02/03 Kel. Margajaya Kec. Bekasi Selatan Kota Bekasi"
+            android:textSize="18sp"
+            android:textStyle=""
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/Tambahan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="165dp"
+            android:text="rijki18hidayat@gmail.com"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+        <TextView
+            android:id="@+id/No.HP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="199dp"
+            android:text="089686372129"
+            android:textSize="18sp"
+            tools:ignore="MissingConstraints" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bimg"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/strip"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout"
+        tools:ignore="MissingConstraints"
+         />
     <TextView
+        android:id="@+id/tentang"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="NAMA  SAYA RIJKI"
+        android:text="TENTANG SAYA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="58dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        tools:ignore="MissingContraints"
+        />
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saya adalah perkerja yang mengutamakan kedisiplinan,yang mengharuskan tugas selesai tepat waktu.
+mampu beradaptasi dengan sistem cepat dan menyerap tugas baru dengan cepat.
+saya adalah orang yang percaya diri,an termotivas untuk belajar hal baru."
+        android:textSize="16sp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKILL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/skilLTKJ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Troubleshoot PC"
+        android:textSize="16sp"
+        android:layout_marginStart="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/skilLTKJ2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Jaringan"
+        android:textSize="16sp"
+        android:layout_marginStart="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/skilLTKJ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Handtools"
+        android:textSize="16sp"
+        android:layout_marginStart="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/skilLTKJ4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mikrotik"
+        android:textSize="16sp"
+        android:layout_marginStart="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/pendidikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RIWAYAT PENDIDIKAN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/sekolah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMK Pertiwi Cilimus"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.719"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/lulusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teknik Komputer Jaringan"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/pengalaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PENGALAMAN KERJA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/namaPT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PT. Indonesia Epson Industry"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/JOBtittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operator Produksi"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912"
+        tools:ignore="MissingContraints"/>
+    <TextView
+        android:id="@+id/JOBtittle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Support Warehouse"
+        android:textSize="16sp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956"
+        tools:ignore="MissingContraints"/>
+
+
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

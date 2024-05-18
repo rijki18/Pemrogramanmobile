@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">cv</string>
+    <string name="profil">profil</string>
+    <string name="tittle_tentangsaya">TENTANG SAYA</string>
+    <string name="tittle_skill">KEAHLIAN Dan KOMPETENSI</string>
+    <string name="tittle_paklaring">Riwayat Kerja</string>
+    <string name="tittlependidikan">Pendidikan</string>
 </resources>
